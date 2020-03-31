@@ -94,8 +94,8 @@ analytics:
 # Site Author
 author:
   name             : "Arthur Cheib"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Personal blog for uploading my data analysis project and some literature summaries also."
+  avatar           : "/images/profile_pic.jpg"
+  bio              : "Personal blog for uploading some of my data analysis projects and some literature summaries also."
   location         : "São Paulo, SP"
   email            :
   links:
