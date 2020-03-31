@@ -7,6 +7,6 @@ I'm a data analyst that uses R as a - powerful - mean to extract answer, for the
 
 Actually one of them is the main responsible for me initiating this blog project, [Estevão Vilela](https://estevaovilela.github.io/), to whom I'm very thankeful for this two long years where we battle to go from zero to hero in R.
 
-**Aviso Importante:**
+**Disclaimer**
 
 One of the top reasons why I'm starting this blog project it's also for improving my writing in english and spanish. That's way I pretend to make posts in different languages occasionally.
