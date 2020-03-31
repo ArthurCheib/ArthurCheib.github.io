@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Arthur Cheib"
   avatar           : "/images/profile_pic.png"
-  bio              : "Personal blog for uploading some of my data analysis projects and some literature summaries also."
+  bio              : "Personal blog for uploading some of my data analysis projects and a few literature summaries also."
   location         : "São Paulo, SP"
   email            :
   links:
@@ -279,3 +279,11 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
