@@ -9,4 +9,4 @@ Actually one of them is the main responsible for me initiating this blog project
 
 **Disclaimer**
 
-One of the top reasons why I'm starting this blog project it's also for improving my writing in english and spanish. That's way I pretend to make posts in different languages occasionally.
+One of the top reasons why I’m starting this blog project it’s also for improving my writing in english and spanish. That’s way some of the blog's post will be, occasionally, made in different languages.
