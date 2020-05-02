@@ -1,5 +1,5 @@
 ---
-title: "Análise da educação pública em SP - dados públicos"
+title: "Desafio de dados - Educação Pública SP"
 date: 2020-05-02
 tags: [EDA]
 excerpt: "Análise exploratória dos dados de professores e dos alunos das Escolas Estaduais de SP"
@@ -53,14 +53,14 @@ calc_turnover <- function(equipe_ano_base, equipe_ano_calc) {
 
 
 Resultado encontrado:
-![Gráfico de Turnover](/images/desafio-seduc/Graph_1_turnover.png)
+![Gráfico de Turnover](/assets/images/desafio-seduc/Graph_1_turnover.png)
 
 **Análise da Pergunta 02: faltas injustificadas de professores e aprendizagem**
 
 Resultado encontrado:
-![Gráfico de Faltas](/images/desafio-seduc/Graph_2_faltas_injustificadas .png)
+![Gráfico de Faltas](/assets/images/desafio-seduc/Graph_2_faltas_injustificadas .png)
 
 **Análise da Pergunta 03: como se distribui o grau de escolaridade dos professores entre os segmentos escolares?**
 
 Resultado encontrado:
-![Gráfico de Escolaridade](/images/desafio-seduc/Graph_3_escolaridade.png)
+![Gráfico de Escolaridade](/assets/images/desafio-seduc/Graph_3_escolaridade.png)
