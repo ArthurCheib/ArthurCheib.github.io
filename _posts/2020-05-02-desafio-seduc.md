@@ -29,14 +29,12 @@ Segmentação escolar: dividi a escola de acordo com os critérios listados abai
 
 **Análise da Pergunta 01: turnover das equipes diretivas e aprendizagem**
 
-    Definições prévias necessárias a compreensão da pergunta:
+Definições prévias necessárias a compreensão da pergunta:
 
 * Equipe diretiva = diretores + vice-diretores
 * Turnover (rotatividade) = ((total de pessoas que entraram na equipe + total de pessoas que saíram da equipe) / 2) / total de pessoas na equipe no ano de cálculo (foto abaixo).
 
-    A parte mais envolvente no tratamento dos dados foi pensar em como obter o conjunto que forma a equipe diretiva - combinação de dois datasets - para então conseguir detectar quando um ID, seja de diretor ou de vice, consta dentro do conjunto da equipe naquele ano e quando já não aparece mais.
-
-Para tanto, criei a seguinte função:
+Para obter o conjunto que forma a equipe diretiva da escola foi necessário somente combinar os dois datasets e criar uma função para detectar quando um ID, seja de diretor ou de vice, consta dentro do conjunto da equipe naquele ano e quando já não aparece mais. Função abaixo:  
 
 ```r
 calc_turnover <- function(equipe_ano_base, equipe_ano_calc) {
@@ -58,7 +56,7 @@ Resultado encontrado:
 **Análise da Pergunta 02: faltas injustificadas de professores e aprendizagem**
 
 Resultado encontrado:
-![Gráfico de Faltas](/assets/images/desafio-seduc/Graph_2_faltas_injustificadas .png)
+![Gráfico de Faltas](/assets/images/desafio-seduc/Graph_2_faltas_injustificadas.png)
 
 **Análise da Pergunta 03: como se distribui o grau de escolaridade dos professores entre os segmentos escolares?**
 
