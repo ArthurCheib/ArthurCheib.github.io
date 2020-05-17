@@ -1,5 +1,5 @@
 ---
-title: "Inside one of the most 'popular' career in MG"
+title: "Inside one of the most popular career in MG"
 date: 2020-05-16
 tags: [Data viz]
 excerpt: "Data visualization produced with the public data available around the EPPGG career"
