@@ -82,4 +82,6 @@ This graph shows us a transition in which 82% of the career came from having "oc
 
 *Note: for producing this graph above we consider an EPPGG as "occupying a trust position" by the only rule of him having this position for more then 6 months within that year.*
 
+Because we can eye-note this decrease in the occupation of trust position by the career as a whole, we decided to check on how does the new entries were affected by it. This is the result:
+
 ![Tempo para recebimento de um cargo](/assets/images/eppgg-career/07_geom_jitter.png)
