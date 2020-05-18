@@ -7,13 +7,11 @@ excerpt: "Data visualization produced with the public data available around the 
 
 ## Inside the EPPGG career
 
-If a public career ought to be study by having as only criteria the total amount of gossip spread around it, the Public Policy and Government Management Specialist (EPPGG, in it's portuguese acronymous) would be the one with the higher number of academic researchies committed to it.
+The [EPPGG](http://www.sindesp.org/#carreira) career is one of the many in Minas Gerais (MG) government. Whoever wish to join it, must first dedicate herself to four years of formal education in a nobel institution, called "Fundação João Pinheiro".
 
-The [EPPGG](http://www.sindesp.org/#carreira) career is one of the many in Minas Gerais (MG) government. Whoever wish to join it, must first dedicate herself to four long years of formal education in a nobel institution, called "Fundação João Pinheiro".
+After being trained, they get into the realms of public sector by having the possibility of accessing different government branches. Once inside, they start doing what they were educated for: development of public policies and management, at any level, of the government structure.
 
-After receiving this years of training, they get into the realms of public sector by accessing the bottom level of different posibles government branches. Once inside, they start doing what they were trained for: development of public policies and management, at any level, of the government structure.
-
-Despite being both highly criticized and praised, just a few have tried to analyze the public data avaiable around this career and that is one of the reasons why I've dedicated this blog post to do so.
+Despite the members of the career being both highly criticized and praised, there are not many analyses of the public data avaiable around it and that is one of the reasons why I've dedicated this post to do so.
 
 Another reason for doing so it's trying to make the EPPGG career better known. All the data used in this brief post can be found [here](http://www.transparencia.mg.gov.br/).
 
