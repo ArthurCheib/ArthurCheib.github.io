@@ -55,20 +55,18 @@
     justify-content: center;
   }
   
+
   .main-content {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-  }
+    flex-direction: row; /* Add this to set the direction of flex items in a row */
+    width: 100%; /* Add this to make the main content take the full width of its container */
+  }  
   
   .photo-section {
     width: 30%;
-  }
-  
-  .photo-image {
-    width: 100%;
-    height: auto;
   }
   
   .welcome-section {
