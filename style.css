@@ -115,4 +115,5 @@ main {
 
 .footer p, .link {
     color: #05445E; 
+    font-weight: bold;
 }
