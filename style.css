@@ -106,7 +106,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
+    padding: 10px;
+    background-color: #75E6DA;
   }
   
   .contact-info {
@@ -117,13 +118,11 @@
     text-align: right;
   }
   
-  .bottom-rectangle {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 50px;
-    background-color: #189AB4;
+  .icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 5px; /* Add some spacing between icons */
   }
+  
   
   
