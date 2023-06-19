@@ -79,15 +79,24 @@
     position: relative; 
   }
   
-  .welcome-section::before {
+  .welcome-section::before,
+  .welcome-section::after {
     content: "";
     position: absolute;
-    top: 0;
-    left: -10px; /* Adjust the position as needed */
-    width: calc(100% + 20px); /* Adjust the width to cover the image and padding */
-    height: 3px; /* Adjust the line-width */
-    background-color: #189AB4; /* Adjust the color as desired */
+    width: calc(100% + 20px);
+    height: 3px;
+    background-color: #189AB4;
   }
+  
+  .welcome-section::before {
+    top: 0;
+    left: -10px;
+  }
+  
+  .welcome-section::after {
+    bottom: 0;
+    left: -10px;
+  }  
   
   .bottom {
     position: relative;
