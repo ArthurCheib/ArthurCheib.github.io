@@ -125,7 +125,7 @@ main {
     background-position: center; /* Centralize the background image */
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 1);
     color: white;
     padding: 50px; /* Adjust as needed */
     height: calc(100% - 20%); /* Subtract the height of the header */
