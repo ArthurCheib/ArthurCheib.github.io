@@ -63,6 +63,12 @@
     width: 30%;
     height: 100%;
   }
+
+  .photo-image {
+    width: 100%;
+    height: auto;
+  }
+  
   
   .welcome-section {
     width: 70%;
