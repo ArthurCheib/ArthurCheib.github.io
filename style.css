@@ -92,9 +92,10 @@ main {
     height: 15%;
     background-color: #75E6DA;
     display: flex;
-    justify-content: space-between; 
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
     padding: 0 20px; 
-    align-items: center;
+    color: #05445E;
 }
 
 .footer p {
