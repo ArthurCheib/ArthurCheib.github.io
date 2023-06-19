@@ -84,6 +84,11 @@
     text-align: center;
   }
   
+  .bottom-content {
+    position: relative;
+    z-index: 1;
+  }
+  
   .bottom-rectangle {
     position: absolute;
     bottom: 0;
