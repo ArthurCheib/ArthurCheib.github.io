@@ -54,12 +54,14 @@
   }
   
   .main-content {
-    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
   }
   
   .photo-section {
     width: 30%;
-    height: 100%;
   }
   
   .photo-image {
@@ -69,10 +71,6 @@
   
   .welcome-section {
     width: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
   }
   
   .icon-section {
