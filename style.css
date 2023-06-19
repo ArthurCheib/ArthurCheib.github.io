@@ -100,39 +100,25 @@
   
   .bottom {
     position: relative;
-    text-align: center;
   }
   
   .bottom-content {
-    position: relative;
-    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
   }
   
-  .bottom-rectangle {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh; /* Adjust the height as desired */
-    background-color: #189AB4;
-  }  
-  
-  .bottom p {
-    font-size: 20px;
-    margin-bottom: 5px;
+  .contact-info {
+    text-align: left;
   }
-
+  
+  .social-icons {
+    text-align: right;
+  }
+  
   .icon {
     width: 24px;
     height: 24px;
-  }  
-  
-  .contact-heading {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .bottom a:hover {
-    text-decoration: underline;
   }
   
