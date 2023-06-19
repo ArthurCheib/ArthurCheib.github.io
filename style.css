@@ -12,20 +12,23 @@
   body {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
   }
   
   header {
     width: 100%;
     height: 20%;
     display: flex;
+    align-items: center;
   }
   
   .header-left {
     width: 30%;
     background-color: #ffffff;
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 10px;
   }
   
   .header-left h1 {
@@ -34,11 +37,10 @@
   
   .header-right {
     width: 70%;
-    background-color: #05445E;
+    background-color: navy;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 10px;
   }
   
   .header-right a {
@@ -48,5 +50,23 @@
   
   main {
     flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-content {
+    width: 80%;
+    display: flex;
+  }
+  
+  .photo-section {
+    width: 30%;
+    height: 100%;
+  }
+  
+  .welcome-section {
+    width: 70%;
+    height: 100%;
   }
   
