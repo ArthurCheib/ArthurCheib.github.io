@@ -104,7 +104,7 @@
     bottom: 0;
     left: 0;
     width: 100vw;
-    height: 50px; /* Adjust the height as desired */
+    height: 100vh; /* Adjust the height as desired */
     background-color: #189AB4;
   }  
   
