@@ -77,6 +77,17 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: relative; 
+  }
+  
+  .welcome-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10px; /* Adjust the position as needed */
+    width: calc(100% + 20px); /* Adjust the width to cover the image and padding */
+    height: 3px; /* Adjust the line-width */
+    background-color: #189AB4; /* Adjust the color as desired */
   }
   
   .bottom {
