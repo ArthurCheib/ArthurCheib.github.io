@@ -101,7 +101,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+    color: #ffffff;
+  }  
   
   .contact-footer {
     text-align: center;
