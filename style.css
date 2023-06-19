@@ -19,25 +19,23 @@
   header {
     width: 100%;
     height: 20%;
+    background-color: #189AB4;
     display: flex;
-    align-items: center;
   }
   
   .header-left {
     width: 30%;
-    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
   .header-left h1 {
-    color: #333333;
+    color: #ffffff;
   }
   
   .header-right {
     width: 70%;
-    background-color: navy;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -58,6 +56,7 @@
   .main-content {
     width: 80%;
     display: flex;
+    justify-content: space-between;
   }
   
   .photo-section {
@@ -67,6 +66,29 @@
   
   .welcome-section {
     width: 70%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .bottom {
+    width: 100%;
+    height: 15%;
+    background-color: #189AB4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffffff;
+  }
+  
+  .bottom a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .bottom a:hover {
+    text-decoration: underline;
   }
   
