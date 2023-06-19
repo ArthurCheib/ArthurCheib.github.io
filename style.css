@@ -1,21 +1,48 @@
-header {
-    position: relative;
-    background-color: #000; /* Set a background color if the image has transparency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
   
-  header img {
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
     width: 100%;
-    height: auto;
-    opacity: 0.8; /* Adjust the opacity as needed */
+    height: 20%;
+    display: flex;
   }
   
-  header h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff; /* Set the text color */
-    font-size: 32px; /* Adjust the font size as needed */
-    font-weight: bold;
+  .header-left {
+    width: 30%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .header-right {
+    width: 70%;
+    background-color: navy;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .header-right a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  main {
+    flex-grow: 1;
   }
   
