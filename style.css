@@ -4,139 +4,110 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  html,
-  body {
+}
+
+html, body {
     height: 100%;
-  }
-  
-  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    font-family: 'Open Sans', sans-serif;
-    justify-content: center; /* Add this to center the main content vertically */
-  }
-  
-  header {
+}
+
+header {
     width: 100%;
     height: 20%;
     background-color: #189AB4;
     display: flex;
-  }
-  
-  .header-left {
+}
+
+.header-left {
     width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .header-left h1 {
+}
+
+.header-left h1 {
     color: #ffffff;
-  }
-  
-  .header-right {
+}
+
+.header-right {
     width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-  }
-  
-  .header-right a {
+}
+
+.header-right a {
     color: #ffffff;
     text-decoration: none;
-  }
-  
-  main {
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
+}
+
 main {
-    flex-grow: 1;
+    flex: 1;
     display: flex;
     justify-content: center;
-  }
-  
-  .main-content {
+}
+
+.main-content {
     display: flex;
-    justify-content: center;
-    gap: 20px;
     flex-direction: row;
-    width: 80%; /* This will make the main content take up 80% of the body width */
-  }
-  
-  .photo-section {
+    width: 80%; 
+    height: 100%; 
+}
+
+.photo-section {
     width: 30%;
-    height: 400px; /* Define a specific height for the photo section */
-  }
-  
-  .welcome-section {
-    width: 70%;
-    height: 400px; /* Define a specific height for the welcome section */
-    text-align: center; /* Add this to center the text within welcome section */
-    font-size: 1.2em; /* Add this to increase the font size within the welcome section */
-  }
-  
-  .photo-image {
+    height: 100%;
+}
+
+.photo-image {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the aspect ratio of the image is preserved */
-  }
-  
-  /*... Other styles ...*/
-  
+    object-fit: cover; 
+}
 
-  .welcome-section p {
-    margin-bottom: 20px; /* Add this to create space between the paragraphs */
-  }
-  
-  .welcome-section::before,
-  .welcome-section::after {
-    content: "";
-    position: absolute;
-    width: calc(100% + 20px);
-    height: 3px;
-    background-color: #189AB4;
-  }
-  
-  .welcome-section::before {
-    top: 0;
-    left: -10px;
-  }
-  
-  .welcome-section::after {
-    bottom: 0;
-    left: -10px;
-  }
-  
-  .footer {
+.welcome-section {
+    width: 70%;
+    height: 100%;
+    text-align: center; 
+    font-size: 1.2em; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.welcome-section p {
+    margin-bottom: 20px; 
+}
+
+.footer {
     width: 100%;
     height: 15%;
     background-color: #75E6DA;
     display: flex;
-    justify-content: space-between; /* Adjust footer elements alignment */
-    padding: 0 20px; /* Add padding to the footer */
-    color: #ffffff;
-  }
-  
-  .footer p {
+    justify-content: space-between; 
+    padding: 0 20px; 
+    align-items: center;
+}
+
+.footer p {
     color: #05445E;
     font-size: 22px;
-  }
-  
-  .link-section {
+}
+
+.link-section {
     display: flex;
-    justify-content: space-around; /* Distribute space around links */
-    width: 30%; /* Adjust width as per requirement */
-  }
-  
-  .footer p,
-  .link {
-    color: #05445E; /* This will change the color of the text in the footer and the links */
-  }
-  
+    justify-content: space-around; 
+    width: 30%; 
+}
+
+.footer p, .link {
+    color: #05445E; 
+}
