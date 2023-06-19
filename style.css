@@ -83,6 +83,10 @@ main {
     gap: 20px;
 }
 
+.welcome-section h2 {
+    margin-bottom: 20px; /* Adjust this value as per your requirement */
+  }
+
 .welcome-section p {
     margin-bottom: 20px; 
 }
