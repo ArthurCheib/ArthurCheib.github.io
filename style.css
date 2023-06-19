@@ -122,6 +122,7 @@ main {
 
 .about-section {
     background-image: url('images/harris-about-me.jpeg');
+    background-position: center; /* Centralize the background image */
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.7);
