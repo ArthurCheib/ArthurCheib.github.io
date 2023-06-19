@@ -74,6 +74,18 @@
     align-items: center;
     position: relative;
   }
+
+  .icon-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+  }  
   
   .welcome-section::before,
   .welcome-section::after {
