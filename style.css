@@ -138,27 +138,20 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.project-images {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  
+  .project-img-container {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.project-images img {
-    width: 30%; /* Adjust as needed */
-    border-right: 2px dotted #000;
-}
-
-.project-images img:last-child {
-    border-right: none;
-}
-
-.project h2 {
-    margin-bottom: 20px;
-}
-
-.project p {
-    margin-top: 20px;
-}
+    justify-content: space-around;
+    gap: 1em;
+    border-bottom: 2px dotted;
+    padding: 1em 0;
+  }
+  
+  .project img {
+    width: 30%; /* you can adjust the size as per your needs */
+    height: auto;
+  }
+  
