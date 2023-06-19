@@ -16,6 +16,7 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
+    justify-content: center; /* Add this to center the main content vertically */
   }
   
   header {
@@ -61,9 +62,9 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    flex-direction: row; /* Add this to set the direction of flex items in a row */
-    width: 100%; /* Add this to make the main content take the full width of its container */
-  }  
+    flex-direction: row;
+    width: 80%; /* This will make the main content take up 80% of the body width */
+  }
   
   .photo-section {
     width: 30%;
@@ -71,6 +72,12 @@
   
   .welcome-section {
     width: 70%;
+    text-align: center; /* Add this to center the text within welcome section */
+    font-size: 1.2em; /* Add this to increase the font size within the welcome section */
+  }
+
+  .welcome-section p {
+    margin-bottom: 20px; /* Add this to create space between the paragraphs */
   }
   
   .welcome-section::before,
@@ -103,8 +110,8 @@
   }
   
   .footer p {
-    color: #ffffff;
-    font-size: 18px;
+    color: #05445E;
+    font-size: 22px;
   }
   
   .link-section {
@@ -113,8 +120,8 @@
     width: 30%; /* Adjust width as per requirement */
   }
   
+  .footer p,
   .link {
-    color: #ffffff;
-    text-decoration: none;
+    color: #05445E; /* This will change the color of the text in the footer and the links */
   }
   
