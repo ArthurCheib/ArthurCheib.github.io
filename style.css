@@ -132,3 +132,33 @@ main {
     min-height: 400px; /* Add a minimum height to ensure readability */
 }
 
+/* DATA */
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.project-images img {
+    width: 30%; /* Adjust as needed */
+    border-right: 2px dotted #000;
+}
+
+.project-images img:last-child {
+    border-right: none;
+}
+
+.project h2 {
+    margin-bottom: 20px;
+}
+
+.project p {
+    margin-top: 20px;
+}
