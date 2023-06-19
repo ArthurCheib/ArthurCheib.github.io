@@ -28,6 +28,10 @@
     padding: 10px;
   }
   
+  .header-left h1 {
+    color: #333333;
+  }
+  
   .header-right {
     width: 70%;
     background-color: navy;
