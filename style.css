@@ -1,0 +1,21 @@
+header {
+    position: relative;
+    background-color: #000; /* Set a background color if the image has transparency */
+  }
+  
+  header img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8; /* Adjust the opacity as needed */
+  }
+  
+  header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Set the text color */
+    font-size: 32px; /* Adjust the font size as needed */
+    font-weight: bold;
+  }
+  
