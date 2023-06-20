@@ -235,10 +235,19 @@ main {
 
 /* BLOG */
 
+/* BLOG */
+
 body.blog-page {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+    padding: 0 5%; 
 }  
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* This will create 3 columns */
+  gap: 2rem; /* This is the space between grid items */
+}
 
 .blog-post {
   margin-bottom: 2em; /* Spacing between blog posts */
