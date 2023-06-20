@@ -149,6 +149,12 @@ main {
     height: 300px; /* Make it match the height of the .project-images container */
     overflow: auto; /* Add scroll bars if the content overflows the container */
   }  
+
+  .project-description p {
+    text-align: justify;
+    margin-bottom: 1em; /* Adjust this value to increase or decrease the space between paragraphs */
+  }
+  
   
  /* Other styles... */
 
