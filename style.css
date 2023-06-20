@@ -143,12 +143,12 @@ body.data-page {
 }  
 
 .main-content {
-    width: 100%;
+    width: 90%;
 }
 
 .project {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
     margin-bottom: 2em;
 }
