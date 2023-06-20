@@ -93,12 +93,14 @@ main {
 }
 
 .welcome-section ul {
-    list-style-type: disc; /* This is the default value and can be changed to none, circle, square, etc. */
-    padding-left: 20px; /* This is the default value and can be increased/decreased to adjust indentation */
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left; /* Add this property */
 }
 
 .welcome-section li {
-    margin-bottom: 10px; /* Adds space between list items */
+    margin-bottom: 10px;
+    text-align: left; /* Add this property */
 }
 
 .footer {
@@ -208,12 +210,12 @@ main {
 }
 
 .teaching-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* This will create 2 columns */
-  grid-template-rows: 1fr 1fr; /* This will create 2 rows */
-  gap: 2rem; /* This is the space between grid items */
-  border: 1px solid #000; /* This is the border around the entire grid */
-}
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* This will create 3 columns */
+    grid-template-rows: repeat(3, 1fr); /* This will create 3 rows */
+    gap: 2rem; /* This is the space between grid items */
+    border: 1px solid #000; /* This is the border around the entire grid */
+  }  
 
 .teaching-experience {
   border: 1px solid #000; /* This is the border around each individual quadrant */
