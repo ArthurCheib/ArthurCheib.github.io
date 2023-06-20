@@ -134,41 +134,29 @@ main {
 
 /* DATA */
 
+/* Applies to all projects */
 .project {
-    width: 90%;
-    margin: 5% auto; /* Centrally align the projects */
     display: flex;
-    gap: 2em; /* Space between the left and right sides */
-  }
-  
-  .project-left {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 2em; /* Space between projects */
   }
   
-  .project-right {
-    flex: 1;
-    position: relative; /* Position context for the images */
+  /* Applies to odd-numbered projects */
+  .project:nth-child(odd) .project-description {
+    order: 1;
   }
   
-  .project-image {
-    position: absolute; /* Allows images to overlap */
-    height: 100%;
-    object-fit: cover;
-    /* Add offsets to each image - these are examples, adjust as needed */
-    &:nth-child(1) { left: 0; }
-    &:nth-child(2) { left: 20%; }
-    &:nth-child(3) { left: 40%; }
+  .project:nth-child(odd) .project-images {
+    order: 2;
   }
   
-  .project-link {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #f00; /* Choose your color */
-    border-radius: 20px; /* Rounded corners */
-    text-decoration: none;
-    color: white;
+  /* Applies to even-numbered projects */
+  .project:nth-child(even) .project-description {
+    order: 2;
+  }
+  
+  .project:nth-child(even) .project-images {
+    order: 1;
   }
     
