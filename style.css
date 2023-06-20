@@ -135,24 +135,40 @@ main {
 /* DATA */
 
 .project {
+    width: 90%;
+    margin: 5% auto; /* Centrally align the projects */
+    display: flex;
+    gap: 2em; /* Space between the left and right sides */
+  }
+  
+  .project-left {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 2em;
+    justify-content: space-between;
   }
   
-  .project-img-container {
-    display: flex;
-    justify-content: space-around;
-    gap: 1em;
-    border-bottom: 2px dotted;
-    padding: 1em 0;
+  .project-right {
+    flex: 1;
+    position: relative; /* Position context for the images */
   }
   
-  .project img {
-    width: calc(40% / 3); /* total width divided by the number of images */
-    height: auto;
+  .project-image {
+    position: absolute; /* Allows images to overlap */
+    height: 100%;
+    object-fit: cover;
+    /* Add offsets to each image - these are examples, adjust as needed */
+    &:nth-child(1) { left: 0; }
+    &:nth-child(2) { left: 20%; }
+    &:nth-child(3) { left: 40%; }
   }
   
-  
+  .project-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f00; /* Choose your color */
+    border-radius: 20px; /* Rounded corners */
+    text-decoration: none;
+    color: white;
+  }
+    
