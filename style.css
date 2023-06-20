@@ -136,6 +136,7 @@ main {
 
 /* Applies to all projects */
 /* First, define the basic project layout */
+
 .project {
     display: flex;
     flex-wrap: wrap;
@@ -145,29 +146,39 @@ main {
   .project-description {
     width: 60%;
     padding: 1em;
-  }
+    height: 300px; /* Make it match the height of the .project-images container */
+    overflow: auto; /* Add scroll bars if the content overflows the container */
+  }  
   
-  .project-images {
+ /* Other styles... */
+
+.project-images {
     width: 40%;
     position: relative;
+    height: 300px; /* Control the height of the image container. Adjust this value as needed. */
+    overflow: hidden; /* Ensure the images don't overflow the container */
   }
   
-  /* Now, for odd-numbered projects, keep the description on the left and images on the right */
-  .project:nth-child(odd) .project-description {
-    order: 1;
+  .project-image {
+    position: absolute;
+    max-width: 100%; /* Limit the width of the image to the width of its parent container */
+    max-height: 100%; /* Limit the height of the image to the height of its parent container */
+    object-fit: cover; /* Keep the aspect ratio of the image while filling the container */
   }
   
-  .project:nth-child(odd) .project-images {
-    order: 2;
+  .project-image:nth-child(1) {
+    top: 0; /* Position of the first image */
+    left: 0; /* Position of the first image */
   }
   
-  /* For even-numbered projects, switch the order: images on the left, description on the right */
-  .project:nth-child(even) .project-description {
-    order: 2;
+  .project-image:nth-child(2) {
+    top: 20%; /* Position of the second image. Adjust this value to control the degree of overlap. */
+    left: 20%; /* Position of the second image. Adjust this value to control the degree of overlap. */
   }
   
-  .project:nth-child(even) .project-images {
-    order: 1;
+  .project-image:nth-child(3) {
+    top: 40%; /* Position of the third image. Adjust this value to control the degree of overlap. */
+    left: 40%; /* Position of the third image. Adjust this value to control the degree of overlap. */
   }
   
     
