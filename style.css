@@ -137,59 +137,55 @@ main {
 /* Applies to all projects */
 /* First, define the basic project layout */
 
-body.data-page {
+.data-content {
     width: 90%;
     margin: auto;
-  }  
+}
 
 .project {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 2em;
-  }
+}
   
-  .project-description {
+.project-description {
     width: 60%;
     padding: 1em;
     height: 300px; /* Make it match the height of the .project-images container */
     overflow: auto; /* Add scroll bars if the content overflows the container */
-  }  
+}  
 
-  .project-description p {
+.project-description p {
     text-align: justify;
     margin-bottom: 1em; /* Adjust this value to increase or decrease the space between paragraphs */
-  }
-  
-  
- /* Other styles... */
+}
 
 .project-images {
     width: 40%;
     position: relative;
     height: 375px; /* Control the height of the image container. Adjust this value as needed. */
     overflow: hidden; /* Ensure the images don't overflow the container */
-  }
+}
   
-  .project-image {
+.project-image {
     position: absolute;
     max-width: 100%; /* Limit the width of the image to the width of its parent container */
     max-height: 100%; /* Limit the height of the image to the height of its parent container */
     object-fit: cover; /* Keep the aspect ratio of the image while filling the container */
-  }
+}
   
-  .project-image:nth-child(1) {
+.project-image:nth-child(1) {
     top: 0; /* Position of the first image */
     left: 0; /* Position of the first image */
-  }
+}
   
-  .project-image:nth-child(2) {
+.project-image:nth-child(2) {
     top: 20%; /* Position of the second image. Adjust this value to control the degree of overlap. */
     left: 20%; /* Position of the second image. Adjust this value to control the degree of overlap. */
-  }
+}
   
-  .project-image:nth-child(3) {
+.project-image:nth-child(3) {
     top: 40%; /* Position of the third image. Adjust this value to control the degree of overlap. */
     left: 40%; /* Position of the third image. Adjust this value to control the degree of overlap. */
-  }
-  
-    
+}
+ 
