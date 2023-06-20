@@ -220,3 +220,29 @@ main {
   margin: 0; /* Removes the default margin */
   padding: 0.5rem 0; /* Adds some space above and below the text */
 }
+
+/* BLOG */
+
+body.blog-page {
+    width: 90%;
+    margin: 0 auto;
+}  
+
+.blog-post {
+  margin-bottom: 2em; /* Spacing between blog posts */
+}
+
+.blog-post h2 {
+  margin: 0; /* Removes the default margin */
+}
+
+.blog-post h3 {
+  font-size: 0.8em; /* Makes the date text smaller */
+  color: #666; /* Makes the date text a gray color */
+  margin: 0; /* Removes the default margin */
+}
+
+.blog-post p {
+  text-align: justify;
+  margin-top: 1em; /* Adds space above the blog post content */
+}
