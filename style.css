@@ -137,11 +137,6 @@ main {
 /* Applies to all projects */
 /* First, define the basic project layout */
 
-/* DATA */
-
-/* Applies to all projects */
-/* First, define the basic project layout */
-
 .data-content {
     width: 90%;
     margin: auto;
@@ -194,3 +189,30 @@ main {
     left: 40%; /* Position of the third image. Adjust this value to control the degree of overlap. */
 }
 
+
+/* TEACHING */
+
+.teaching-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* This will create 2 columns */
+    grid-template-rows: 1fr 1fr; /* This will create 2 rows */
+    gap: 2rem; /* This is the space between grid items */
+    border: 1px solid #000; /* This is the border around the entire grid */
+  }
+  
+  .teaching-experience {
+    border: 1px solid #000; /* This is the border around each individual quadrant */
+    padding: 1rem; /* This is the space between the content and the border */
+  }
+  
+  .teaching-pdf {
+    width: 100%;
+    height: 60%; /* Adjust as needed */
+  }
+  
+  .teaching-title,
+  .teaching-description {
+    margin: 0; /* Removes the default margin */
+    padding: 0.5rem 0; /* Adds some space above and below the text */
+  }
+  
