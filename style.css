@@ -146,12 +146,13 @@ body.data-page {
     width: 90%;
 }
 
-.project {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    margin-bottom: 2em;
+.project-images {
+    width: 40%;
+    position: relative;
+    height: 300px; /* Control the height of the image container. Adjust this value as needed. */
+    overflow: hidden; /* Ensure the images don't overflow the container */
 }
+
 
 .project:nth-child(even) .project-description {
     order: 2;
