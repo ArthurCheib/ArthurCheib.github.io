@@ -137,6 +137,11 @@ main {
 /* Applies to all projects */
 /* First, define the basic project layout */
 
+body.data-page {
+    width: 90%;
+    margin: auto;
+  }  
+
 .project {
     display: flex;
     flex-wrap: wrap;
@@ -161,7 +166,7 @@ main {
 .project-images {
     width: 40%;
     position: relative;
-    height: 400px; /* Control the height of the image container. Adjust this value as needed. */
+    height: 375px; /* Control the height of the image container. Adjust this value as needed. */
     overflow: hidden; /* Ensure the images don't overflow the container */
   }
   
