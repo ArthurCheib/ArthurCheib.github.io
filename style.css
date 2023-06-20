@@ -155,7 +155,7 @@ main {
 .project-images {
     width: 40%;
     position: relative;
-    height: 250px; /* Control the height of the image container. Adjust this value as needed. */
+    height: 400px; /* Control the height of the image container. Adjust this value as needed. */
     overflow: hidden; /* Ensure the images don't overflow the container */
   }
   
