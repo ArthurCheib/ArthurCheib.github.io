@@ -135,14 +135,24 @@ main {
 /* DATA */
 
 /* Applies to all projects */
+/* First, define the basic project layout */
 .project {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 2em; /* Space between projects */
+    margin-bottom: 2em;
   }
   
-  /* Applies to odd-numbered projects */
+  .project-description {
+    width: 60%;
+    padding: 1em;
+  }
+  
+  .project-images {
+    width: 40%;
+    position: relative;
+  }
+  
+  /* Now, for odd-numbered projects, keep the description on the left and images on the right */
   .project:nth-child(odd) .project-description {
     order: 1;
   }
@@ -151,7 +161,7 @@ main {
     order: 2;
   }
   
-  /* Applies to even-numbered projects */
+  /* For even-numbered projects, switch the order: images on the left, description on the right */
   .project:nth-child(even) .project-description {
     order: 2;
   }
@@ -159,4 +169,5 @@ main {
   .project:nth-child(even) .project-images {
     order: 1;
   }
+  
     
