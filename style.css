@@ -152,8 +152,7 @@ main {
   
   .project img {
     width: calc(40% / 3); /* total width divided by the number of images */
-    height: 20vh; /* 20% of viewport height */
-    object-fit: cover; /* Ensures the aspect ratio of the image is preserved */
+    height: auto;
   }
   
   
